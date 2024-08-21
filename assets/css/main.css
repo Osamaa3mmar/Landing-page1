@@ -1,0 +1,57 @@
+@import url(./base.css);
+
+body{
+    background-color: #eee;
+}
+.header {
+background-color: #fff;
+padding: 15px 0px ;
+}
+.header .logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 45px;
+    
+}
+.logo p{
+    font-family: Roboto;
+    margin-left: 10px;
+    color: var(--maincolor);
+    font-weight: 700;
+}
+.nav ul{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-family: Poppins;
+}
+.nav ul li a {
+    color: #101928;
+}
+.Buttons{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.Buttons a{
+    padding: 8px 35px;
+    border: 2px solid var(--maincolor);
+    font-weight: 700;
+    font-family: Inter;
+    border-radius: 10px;
+
+}
+.login{
+    color: var(--maincolor);
+    
+}
+.Register{
+    color: #fff;
+    background-color: var(--maincolor);
+
+}
+.selected{
+    font-weight: 900;
+}
